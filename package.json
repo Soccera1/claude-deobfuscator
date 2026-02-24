@@ -1,0 +1,25 @@
+{
+  "name": "claude-code-deobfuscator",
+  "version": "1.0.0",
+  "description": "A specialized two-pass de-obfuscator for Anthropic's Claude Code CLI, leveraging Gemini 2.5-flash-lite for initial labeling and Gemini 3-flash-preview for global consistency.",
+  "type": "module",
+  "main": "deobfuscate.js",
+  "bin": {
+    "deobfuscate-claude": "deobfuscate.js"
+  },
+  "scripts": {
+    "start": "node deobfuscate.js"
+  },
+  "keywords": [
+    "claude-code",
+    "anthropic",
+    "gemini",
+    "deobfuscate",
+    "reverse-engineering"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1"
+  }
+}
